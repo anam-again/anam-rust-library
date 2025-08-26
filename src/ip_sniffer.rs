@@ -79,7 +79,7 @@ fn scan(tx: Sender<u16>, start_port: u16, addr: IpAddr, num_threads: u16) {
     }
 }
 
-fn main() {
+pub fn ip_sniffer() {
     let args: Vec<String> = env::args().collect();
     let program = args[0].clone();
     let arguments = match Arguments::new(&args) {

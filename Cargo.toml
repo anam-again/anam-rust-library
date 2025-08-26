@@ -12,3 +12,4 @@ name = "hello_rust"
 path = "src/lib.rs"
 
 [dependencies]
+rand = "0.9.2"

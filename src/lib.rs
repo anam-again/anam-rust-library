@@ -2,4 +2,4 @@
 
 pub mod cli_builder;
 pub mod ip_sniffer;
-pub mod grid_printer;
+pub mod grid_painter;
